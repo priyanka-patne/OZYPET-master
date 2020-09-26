@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZOI.APP", "ZOI.APP\ZOI.APP.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZOI.Domain", "ZOI.Domain\ZOI.Domain.csproj", "{0FC5ED2E-B189-4E52-A818-C0119CE52902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OzyPetAPI", "OzyPetAPI\OzyPetAPI.csproj", "{F349E19D-7653-482B-A655-875FB9714B4C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,10 +37,6 @@ Global
 		{0FC5ED2E-B189-4E52-A818-C0119CE52902}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FC5ED2E-B189-4E52-A818-C0119CE52902}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FC5ED2E-B189-4E52-A818-C0119CE52902}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F349E19D-7653-482B-A655-875FB9714B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F349E19D-7653-482B-A655-875FB9714B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F349E19D-7653-482B-A655-875FB9714B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F349E19D-7653-482B-A655-875FB9714B4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
