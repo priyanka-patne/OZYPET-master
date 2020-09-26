@@ -1,0 +1,73 @@
+.hero{
+  
+    #carousel-1{
+        .view{
+            img{
+                height: 530px;
+                object-fit: cover;
+            }
+        }
+        .carousel-caption{
+            bottom: 120px;
+            text-align: left;
+            .h-1{
+                font-size: 64px;
+                font-family: $font-itim;
+                font-weight: 400;
+                line-height: 1;
+                margin-bottom: 0px;
+            }
+            .h-2{
+                line-height: 1;
+                font-size: 50px;
+                font-family: $font-fredoka;
+                font-weight: 400;
+            }
+            .btn{
+                position: relative;
+                top: 50px;
+            }
+        }
+        .las{
+            font-size: 100px;
+            transition: $transition;
+            opacity: 0.3;
+            &:hover{
+                transition: $transition;
+                opacity: 1;
+
+            }
+        }
+    }
+}
+
+@media(max-width:991px){
+    .hero{
+        margin-top: 90px;
+         #carousel-1 .carousel-caption .h-1{
+            font-size: 25px;
+        }
+         #carousel-1 .carousel-caption .h-2{
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        #carousel-1 .las {
+            font-size: 30px;
+        }
+        #carousel-1 .view img{
+            height: 250px;
+            object-fit: cover;
+            object-position: top;
+        }
+        #carousel-1 .carousel-caption{
+           bottom: 20px;
+           text-align: center;
+           .btn{
+               top: 20px;
+               font-size: 14px;
+               padding: 10px 15px;
+           }
+        }
+        
+    }
+}

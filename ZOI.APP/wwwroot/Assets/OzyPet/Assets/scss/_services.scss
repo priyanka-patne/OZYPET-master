@@ -1,0 +1,74 @@
+.services{
+    
+    .banner{
+        background: url(../images/banner2.jpg);
+        background-size: cover;
+    }
+    .all-services{
+        .card{
+            margin-bottom: 50px;
+        }
+    }
+}
+.services-all{
+    background: #fff;
+}
+
+.filter-container{
+    .filter-locality, .filter-services{
+        background-color: #f6f3f1;
+        padding: 40px 20px;
+        margin-bottom: 30px;
+        text-align: left;
+        h2{
+            color: #e36874;
+            font-size: 20px;
+            font-family: $font-poppins;
+            font-weight: 500;
+            padding-left: 20px;
+        }
+        li{
+            background: none;
+            border: none;
+            padding: 6px 20px;
+        }
+        .more{
+            color: $color-green;
+            font-size: 20px;
+            font-family: $font-poppins;
+            font-weight: bold;
+            padding-left: 20px;
+            margin-top: 30px;
+        }
+    }
+    .filter-img{
+        position: relative;
+        margin-bottom: 50px;
+        h4{
+            font-size: 30px;
+            font-family: $font-poppins;
+            font-weight: bold;
+            color: #fff;
+            position: absolute;
+            bottom: 30px;
+            left: 15px;
+        }
+        h6{
+            font-size: 16px;
+            font-family: $font-poppins;
+            font-weight: 300;
+            color: #fff;
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+        }
+    }
+}
+
+.services{
+    @media (min-width: 1366px){
+        .container, .container-lg, .container-md, .container-sm, .container-xl {
+            max-width: 1320px;
+        }
+    }
+}

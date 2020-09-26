@@ -1,0 +1,426 @@
+.form {
+  form {
+    width: 450px;
+    margin: 0px auto;
+    h2 {
+      font-size: 26px;
+      font-family: $font-fredoka;
+      color: $color-green;
+      font-weight: 400;
+      text-transform: uppercase;
+      display: block;
+      // margin-bottom: 30px;
+    }
+    .btn {
+      text-transform: capitalize;
+    }
+    .datepicker {
+      margin-top: 0px;
+    }
+    .input-group-append {
+      display: none;
+    }
+    .datepicker-container {
+      position: relative;
+      margin-top: 30px;
+      width: 100%;
+      .las {
+        position: absolute;
+        right: 10px;
+        font-size: 30px;
+        bottom: 3px;
+        color: $color-green;
+        z-index: 1;
+        cursor: pointer;
+      }
+    }
+    .dont-have-account {
+      font-family: $font-poppins;
+      font-weight: 400;
+      font-size: 20px;
+      text-decoration: underline;
+      text-underline-position: under;
+      margin-bottom: 30px;
+    }
+    input,
+    select {
+      display: block;
+      width: 100%;
+      background-color: $color-white;
+      border-radius: 0px;
+      border: 1px solid #dddddd;
+      // margin-bottom: 30px;
+      margin-top: 30px;
+      padding: 6px 12px;
+      color: $color-gray;
+      &::placeholder {
+        color: #b6b6b6;
+      }
+    }
+    button[type=submit]{
+      margin-top: 30px;
+    }
+    .invalid-feedback, .valid-feedback{
+      position: absolute;
+      // top: 10px;
+      text-align: left;
+    }
+    .bootstrap-select{
+      width: 100% !important;
+      .dropdown-toggle.bs-placeholder{
+        color: #b6b6b6;
+      }
+      .btn{
+        display: block !important;
+        width: 100% !important;
+        border-radius: 0px;
+        border: 1px solid #dddddd !important;
+        margin-bottom: 0px;
+        margin-top: 30px;
+        padding: 6px 12px;
+        color: $color-gray !important;
+        background: unset;
+        background-color: $color-white !important;
+        box-shadow: none;
+      }
+      .filter-option-inner-inner{
+        font-size: 16px;
+        font-family: inherit;
+      }
+      .dropdown-menu{
+        width: 450px;
+      }
+      .inner{
+        width: 100%;
+      }
+    }
+    .bootstrap-select:not(.input-group-btn), .bootstrap-select[class*=col-]{
+      display: unset;
+    }
+    .bootstrap-select>.dropdown-toggle:after{
+      margin-left: -10px;
+    }
+    select [disabled],
+    select:invalid {
+      color: #b6b6b6;
+    }
+    button {
+      display: block;
+      width: 100%;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .forget-password {
+      font-size: 18px;
+      color: #b6b6b6;
+      display: block;
+      margin-left: auto;
+      width: fit-content;
+      margin-bottom: 15px;
+      transition: $transition;
+      &:hover {
+        transition: $transition;
+        color: $color-green;
+      }
+    }
+    .or-continue-with {
+      font-size: 18px;
+      color: #b6b6b6;
+      display: block;
+      margin: auto;
+      width: fit-content;
+      margin-bottom: 15px;
+      transition: $transition;
+      &:hover {
+        transition: $transition;
+        color: $color-green;
+      }
+    }
+    .social-media-login {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      margin-bottom: 30px;
+      .facebook {
+        background: linear-gradient(180deg, #5575b9 50%, #3c5ca9 50%);
+        font-weight: 500;
+        text-transform: capitalize;
+        justify-content: center;
+        height: 100%;
+        padding: 8px;
+        transition: $transition;
+        i {
+          font-size: 30px;
+          position: relative;
+          top: 3px;
+        }
+        &:hover {
+          transition: $transition;
+          background: linear-gradient(180deg, #3c5ca9 50%, #3c5ca9 50%);
+        }
+      }
+      .google {
+        background: #fff;
+        color: $color-gray;
+        text-transform: capitalize;
+        justify-content: center;
+        height: 100%;
+        padding: 8px;
+        img {
+          padding: 2px 5px 2px 0px;
+          // width: 30px;
+        }
+      }
+    }
+    .or-you-are-a-doctor-vet {
+      text-align: center;
+    }
+    .login-here {
+      width: fit-content;
+      overflow: unset;
+      margin-top: 30px;
+      i {
+        position: absolute;
+        left: -70px;
+        margin-top: -8px;
+        font-size: 50px;
+        color: #7b7978;
+      }
+    }
+  }
+}
+
+.form.step {
+  h2 {
+    text-align: center;
+  }
+  .form-step {
+    display: flex;
+    width: 140%;
+    justify-content: space-between;
+    margin: 50px auto;
+    position: relative;
+    left: -20%;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0px;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(to left, #b6b6b6 50%, #fd4376 50%);
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: -1;
+    }
+    div {
+      display: flex;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      background-color: #b6b6b6;
+      color: #fff;
+      font-family: $font-poppins;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .active {
+      background: $gradient-pink;
+    }
+  }
+  .form-step.complete{
+    &::before{
+      background: linear-gradient(to left, #fd4376 50%, #fd4376 50%);
+    }
+  }
+}
+.form {
+  form {
+    .choose-img-container {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 30px;
+    input[type="file"] {
+      display: none;
+    }
+    .upload {
+      background: linear-gradient( to bottom,#d7d7d7 0%, #b6b6b6 100% );
+      border-radius: 5px;
+      padding: 8px 20px;
+      box-shadow: 0px 9px 6.64px 1.36px rgba(0, 0, 0, 0.15);
+      font-family: $font-poppins;
+      font-weight: 500;
+      font-size: 20px;
+      max-height: 50px;
+      .las{
+        font-size: 30px;
+        position: relative;
+        top: 3px;
+      }
+    }
+    .choosen-img{
+      max-width: 150px;
+    }
+    }
+    .radio-container{
+      display: flex;
+    margin: 30px 0px;
+    justify-content: flex-start;
+    padding-left: 0px;
+    p{
+      font-family: $font-poppins;
+      font-weight: 400;
+      font-size: 18px;
+      color: $color-pink;
+      margin-right: 50px;
+    }
+    .custom-control-label{
+      margin-right: 20px;
+    }  
+  }
+  .btn-2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+}
+
+.next-prev-container{
+  margin-top: 50px;
+  a{
+    width: fit-content;
+    margin: 0px;
+    min-width: fit-content;
+    padding: 10px 30px;
+  }
+}
+
+}
+
+
+
+.custom-radio .custom-control-input:checked~.custom-control-label::after{
+  background-color: $color-green;
+  background-image: unset;
+  border-radius: 50%;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+  background-color: $color-green;
+}
+#append_form{
+  .append_form{
+    margin: 100px auto;
+    border-top: 2px solid $color-pink-2;
+  }
+}
+#doctor_login{
+  .modal-content{
+    border-radius: 15px;
+  }
+  .modal-header{
+    border-bottom:unset;
+    padding: 20px 20px 0px 0px;
+  }
+    .modal-body{
+      .form p{
+        color: #b6b6b6;
+        font-family: $font-poppins;
+        font-weight: 400;
+        font-size: 18px;
+      }
+      .form form{
+        width: 100%;
+        padding: 40px 60px 60px 60px;
+      }
+    } 
+  
+}
+
+.text-gray{
+  color: #b6b6b6;
+  font-size: 18px;
+  i{
+    transition: $transition;
+    position: relative;
+    left: 0px;
+  }
+  &:hover{
+    color: $color-green;
+    i{
+      transition: $transition;
+      position: relative;
+      left: 15px;
+    }
+  }
+}
+.text-gray-prev{
+  color: #b6b6b6;
+  font-size: 18px;
+  i{
+    transition: $transition;
+    position: relative;
+    left: 0px;
+  }
+  &:hover{
+    color: $color-green;
+    i{
+      transition: $transition;
+      position: relative;
+      left: -15px;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  #doctor_login .modal-body .form form{
+    padding: 0px 30px 20px;
+  }
+  .form {
+    form {
+      width: 100%;
+      margin: 30px auto;
+      h2 {
+        font-size: 22px;
+      }
+      .dont-have-account {
+        font-size: 18px;
+      }
+      .social-media-login {
+        padding: 0px 15px;
+        .facebook {
+          width: 100%;
+          min-width: unset;
+          i {
+            font-size: 20px;
+            top: 2;
+          }
+        }
+        .google {
+          min-width: unset;
+          width: 100%;
+          img {
+            padding: 0px;
+            position: relative;
+            right: 5px;
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+  .form.step {
+    .form-step {
+      width: 100%;
+      left: 0px;
+    }
+  }
+
+  .form form .bootstrap-select .dropdown-menu {
+    width: 330px;
+    left: -165px !important;
+}
+}

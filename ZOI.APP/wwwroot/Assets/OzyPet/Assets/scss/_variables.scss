@@ -1,0 +1,29 @@
+$color-white : #fff;
+$color-white-1 : #f6f3f1;
+$color-white-2 : #e4e2e1;
+$color-black : #000;
+$color-pink :#fd4376;
+$color-pink-2 :#fe698c;
+$color-green:#39c597;
+$color-gray:#5b5b5b;
+$color-red:#a40000;
+$color-red-2:#e36874;
+$color-gold: rgb(255, 203, 33);
+
+$font-poppins :'Poppins', sans-serif;
+$font-itim : 'Itim', cursive;
+$font-fredoka:'Fredoka One', cursive;
+
+$transition: 300ms all ease-in-out;
+
+$gradient-pink : linear-gradient(180deg, #fe698c 50%, #fd4376 50%);
+$gradient-pink-hover : linear-gradient(180deg, #fe698c, #fd4376 50%);
+$gradient-green : linear-gradient(to right, #73b792 30%, #709aa7);
+$gradient-orange : linear-gradient( 145deg, rgb(252,241,96) 0%, rgb(255,144,0) 72%);
+$gradient-green-2: linear-gradient( 145deg, rgb(107,221,138) 0%, rgb(38,166,132) 72%);
+$gradient-gray: linear-gradient( 145deg, rgb(184,210,232) 0%, rgb(149,172,191) 20%, rgb(75,103,125) 72%);
+$gradient-pink-2: linear-gradient( 145deg, rgb(241,162,192) 0%, rgb(187,80,118) 72%);
+$gradient-gold: linear-gradient( 145deg, #fce555 0%, #ff9000 72%);
+$gradient-pink-3: linear-gradient( to bottom, #db5b91 0%, #ff5668 72%);
+$gradient-green-3 : linear-gradient(180deg, #8ebb76 50%, #648d54 50%);
+$gradient-green-3-hover : linear-gradient(180deg, #648d54, #648d54 50%);

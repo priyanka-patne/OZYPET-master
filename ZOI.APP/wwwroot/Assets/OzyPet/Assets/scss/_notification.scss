@@ -1,0 +1,33 @@
+#notification{
+    .notify-bell{
+        position: absolute;
+    }
+    .notiy-header{
+        position: absolute;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: $font-fredoka;
+    }
+    .notification-list{
+        list-style: none;
+        padding: 0px;
+        li{
+            border-bottom: 1px solid #dee2e6;
+            padding: 15px;
+            padding-right: 40px;
+            span{
+                position: absolute;
+                right: 20px;
+                font-size: 22px;
+                font-weight: 500;
+                cursor: pointer;
+                &:hover{
+                    color: $color-red;
+                }
+            }
+        }
+    }
+    .modal-body{
+        padding: 0px;
+    }
+}

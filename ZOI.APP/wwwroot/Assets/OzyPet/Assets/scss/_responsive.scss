@@ -1,0 +1,211 @@
+@media screen and (min-width:991px) and (max-width:1600px){
+    .hero #carousel-1 .view img{
+        height: 50vh;
+    }
+    .hero #carousel-1 .carousel-caption{
+        bottom: 60px;
+    }
+    .hero #carousel-1 .carousel-caption .h-2{
+        font-size: 45px;
+    }
+    .hero #carousel-1 .carousel-caption .btn{
+        top: 30px;
+    }
+    .go-to-resource-center .container .float-img-top{
+        right: 0px;
+    }
+    footer .float-img{
+        right: 0px;
+    }
+    .view-all-services .float-img{
+        margin-left: -50px;
+        width: 70px;
+    }
+    .services .carousel .carousel-control-next{
+        right: -4%;
+        width: fit-content;
+    }
+    .services .carousel .carousel-control-prev{
+        left: -4%;
+        width: fit-content;
+    }
+    .ngo .container .float-img{
+        margin-left: 0px;
+    }
+    .card-date .calendar .month{
+        font-size: 18px;
+    }
+
+    .banner{
+        height: 50vh;
+    }
+    header .navbar-nav{
+        margin: auto;
+    }
+
+    header .navbar .navbar-brand{
+        width: 150px;
+    }
+
+
+}
+@media screen and (min-width:768px) and (max-width:1280px){
+    header .navbar form .md-form input[type="text"]:not(.browser-default){
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .form form{
+        width: 100%;
+    }
+    .form.step .form-step{
+        width: 100%;
+        left: unset;
+        right: unset;
+    }
+    .form form .social-media-login{
+        margin-left: 40px;
+    }
+    .services .carousel .carousel-control-next .las{
+        right: unset;
+    }
+    .services .carousel .carousel-control-prev .las{
+        left: unset;
+    }
+    .go-to-resource-center .container .float-img-top {
+        top: -155px;
+        width: 100px;
+        right: -10px;
+    }
+    footer .float-img {
+        width: 100px;
+        right: 15px;
+        top: -100px;
+    }
+    header .navbar .navbar-brand{
+        width: 100px;
+    }
+    .testimonial{
+        margin-bottom: 50px;
+    }
+    .slider-1 .carousel-item .carousel-caption{
+        margin-right: 30px;
+    }
+    .view-all-services h2{
+        font-size: 20px;
+    }
+    .view-all-services .heading p{
+        padding-right: 0px;
+    }
+    .card-date{
+        margin-bottom: 30px;
+    }
+    .card-date .card{
+        padding: 10px;
+    }
+    .card-date .calendar .month{
+        font-size: 18px;
+    }
+    .go-to-resource-center .container .float-img-top{
+        top: -223px;
+    }
+    .go-to-resource-center .container .float-img-bottom{
+        width: 150px;
+        bottom: -127px;
+    }
+    .ngo .card{
+        margin-top: 30px;
+    }
+    footer .float-img{
+        top: -140px;
+    }
+    .form form .social-media-login .facebook,
+    .form form .social-media-login .google{
+        min-width: fit-content;
+        padding:8px 20px;
+        min-height: 50px;
+    }
+    .form form h2{
+        font-size: 22px;
+    }
+    .form form .social-media-login{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .form form .forget-password{
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .login #carousel-2 .carousel-caption{
+        left: 20%;
+    }
+    .view-all-services .float-img{
+        margin-left: -250px;
+    }
+    .profile-details .profile-info h2{
+        font-size: 22px;
+    }
+    .profile-details .profile-info a, .profile-details .profile-info p{
+        font-size: 16px;
+    }
+    .profile-details .profile-info .disable-text .btn-disable{
+        margin-left:5px;
+    }
+    .profile-details .profile-info .disable-text{
+        font-size: 14px;
+    }
+    .banner div .user_img{
+        width: 50px;
+        height: 50px;
+    }
+    .banner div h1{
+        font-size: 30px;
+    }
+    .banner .income .img{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 5px;
+    }
+    .banner .income .img img{
+        width: 40px;
+        top: 5px;
+        left: 1px;
+    }
+    .banner .income .withdrawn p, .banner .income .earn p{
+        font-size: 16px;
+    }
+    .banner .income .withdrawn .amount, .banner .income .earn .amount{
+        font-size: 25px;
+    }
+    .banner .income .withdrawn .amount i, .banner .income .earn .amount i{
+        font-size: 20px;
+    }
+    .dropdown-menu.show{
+        left: -224px !important;
+        // top: 30px !important;   
+    }
+    .services .ngo .card{
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (min-width:1280px){
+    header .navbar form .md-form input[type="text"]:not(.browser-default){
+      width: 640px;
+    }
+}
+
+@media (max-width:768px){
+    header .navbar form .md-form input[type="text"]:not(.browser-default){
+      display: none;
+    }
+    .go-to-resource-center .container .float-img-top{
+        right: -10px;
+    }
+    .services > .container{
+        overflow-x: hidden;
+    }
+}

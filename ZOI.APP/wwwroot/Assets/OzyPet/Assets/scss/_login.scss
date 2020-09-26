@@ -1,0 +1,55 @@
+.login {
+    padding-top: 80px;
+    padding-bottom: 150px;
+  #carousel-2 {
+    .view {
+      img {
+        height: 500px;
+        object-fit: cover;
+      }
+    }
+    .carousel-caption{
+      bottom: 35%;
+      right: 0px;
+      left: 60%;
+      text-align: left;
+      .h-1{
+        font-family: $font-poppins;
+        font-weight: bold;
+        margin-bottom: 0px;
+      }
+      .p-1{
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 20px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  .login {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    #carousel-2 {
+      .carousel-caption{
+        bottom: 10%;
+        left: 15%;
+      }
+      .view {
+        img {
+            height: 200px;
+        }
+      }
+    }
+    .carousel-caption{
+      .h-1{
+        font-size: 22px;
+      }
+      .p-1{
+        font-size: 18px;
+      }
+    }
+  }
+}
